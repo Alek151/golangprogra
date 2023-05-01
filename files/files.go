@@ -48,3 +48,5 @@ func Append(filen string, texto string) bool {
 	return true
 
 }
+
+func LeoArchivo() {}
