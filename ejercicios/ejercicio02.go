@@ -26,6 +26,6 @@ func CrearTabla() {
 	}
 
 	for i := 0; i <= 10; i++ {
-		println(numero, "*", i, "=", numero*i)
+		println(numero, "X", i, "=", numero*i)
 	}
 }
