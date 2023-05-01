@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Alek151/golangprogra/iteraciones"
+	"github.com/Alek151/golangprogra/ejercicios"
 )
 
 func main() {
@@ -24,6 +24,6 @@ func main() {
 
 	/*teclado.IngresoNumeros()*/
 
-	iteraciones.Iterar()
+	ejercicios.CrearTabla()
 
 }
