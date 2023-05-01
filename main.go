@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/Alek151/golangprogra/ejercicios"
+	"github.com/Alek151/golangprogra/teclado"
 )
 
 func main() {
@@ -19,7 +17,11 @@ func main() {
 	default:
 		fmt.Println("Sistema desconocido", os)
 	}*/
-	numero, texto := ejercicios.DevuelveVariables("500")
+
+	/*numero, texto := ejercicios.DevuelveVariables("500")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+
+	teclado.IngresoNumeros()
+
 }
