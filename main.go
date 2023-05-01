@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Alek151/golangprogra/teclado"
+	"github.com/Alek151/golangprogra/iteraciones"
 )
 
 func main() {
@@ -22,6 +22,8 @@ func main() {
 	fmt.Println(numero)
 	fmt.Println(texto)*/
 
-	teclado.IngresoNumeros()
+	/*teclado.IngresoNumeros()*/
+
+	iteraciones.Iterar()
 
 }
