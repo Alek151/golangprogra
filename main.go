@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Alek151/golangprogra/ejercicios"
+	"github.com/Alek151/golangprogra/files"
 )
 
 func main() {
@@ -24,6 +24,7 @@ func main() {
 
 	/*teclado.IngresoNumeros()*/
 
-	ejercicios.CrearTabla()
+	// fmt.Println(ejercicios.CrearTabla())
 
+	files.SumaTabla()
 }
