@@ -2,8 +2,8 @@ package files
 
 import (
 	//"bufio"
+	"bufio"
 	"fmt"
-	//"ioutil"
 	"os"
 
 	"github.com/Alek151/golangprogra/ejercicios"
@@ -49,4 +49,17 @@ func Append(filen string, texto string) bool {
 
 }
 
-func LeoArchivo() {}
+func LeoArchivo() {
+	archivo, err := os.Open(filename)
+	if err != nil {
+		fmt.Println("Hubo un error al leer el archivo: " + err.Error())
+	}
+
+	scanner := bufio.NewScanner(archivo)
+	for scanner.Scan() {
+		registro := scanner.Text()
+		fmt.Println("> " + registro)
+	}
+
+	archivo.Close()
+}
